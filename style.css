@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+}
+* {
+    touch-action: manipulation;
+}
+.usernameInput{
+    display: none;
+    position: fixed;
+    background: rgb(255, 255, 255) ;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    width: 480px;
+    height: 150px;
+    top: 260px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 200%;
+}
+.button {
+    background-color: rgb(88, 211, 115);
+    border: 2px solid rgba(0, 0, 0, 0.78);
+    border-radius: 10px;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 70%;
+}
+input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid rgba(0, 0, 0, 0.67);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5%;
+}
+.playersList {
+    display: none;
+    position: fixed;
+    width: 480px;
+    height: 350px;
+    list-style-type: none;
+    text-align: left;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    top: 260px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    padding: 0;
+    background: #FEFFFA;
+    /* background-image: url('images/background.jpg'); */
+}
+.player {
+    width: 91%;
+    height: 5px;
+    display: flex; 
+    align-content: center;
+    flex-wrap: wrap; 
+    border: 1px solid rgba(0, 0, 0, 0.78);
+    padding: 18px;
+    margin: 0 auto;
+}
+.player>p {
+    display: inline;
+    align-self: center;
+    font-weight: bold;
+}
+.player>p:nth-child(1){
+    width: 30%;
+}
+.player>p:nth-child(2){
+    width: 40%;
+}
+.player>p:nth-child(4), .player>p:nth-child(6){
+    text-align: right;
+    width: 5%;
+}
+.player>p:nth-child(3){
+    text-align: right;
+    width: 10%;
+}
+.player>p:nth-child(5){
+    text-align: right;
+    width: 10%;
+}
+.waitImg {
+    display: inline-block;
+    position: fixed;
+    width: 150px;
+    height: 150px;
+    text-align: left;
+    top: 330px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+}
+@media screen and (min-width:1000px){
+    .arrowControl{
+        display: none;
+    }
+}
