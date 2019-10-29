@@ -63,9 +63,9 @@ var Player = function (x, y, width, height) {
     this.character = 'images/char-boy.png';
     this.changeCharacter = function(){
         const arrOfChar = ['images/char-boy.png', 'images/char-pink-girl.png', 'images/char-cat-girl.png', 'images/char-horn-girl.png'];
-        const i = Math.floor(Math.random() * 3); 
-        this.sprite = arrOfChar[i];
-        this.character = arrOfChar[i];
+        const randomNo = Math.floor(Math.random() * 3); 
+        this.sprite = arrOfChar[randomNo];
+        this.character = arrOfChar[randomNo];
     }
     this.die = function (bool){
         if (bool){
