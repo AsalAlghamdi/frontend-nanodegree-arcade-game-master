@@ -594,7 +594,6 @@ var Engine = (function(global) {
         'images/char-horn-girl.png',
         'images/dead.png', 
         'images/death.png', 
-        'images/win.png', 
         'images/timer.png',
         'images/victory.png',
         'images/startBtn.png',
