@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="usernameInput">
+        <input type="text" placeholder="Write Your Name.." id="playerName"><br>
+        <button type="button" class="button" id="usernameBtn" >Done</button>
+    </div>
+    <ul class="playersList">
+        <!-- <li class="player">
+            <p>Asal Alghamdi</p>
+            <p><img src="images/no1.png" width="33" height="33"></p>
+            <p><img src="images/death.png" width="25" height="25"></p>
+            <p>9</p>
+            <p><img src="images/survived.png" width="25" height="25"></p>
+            <p>13</p>
+        </li>
+        <li class="player">
+            <p>Asal Alghamdi</p>
+            <p></p>
+            <p><img src="images/death.png" width="25" height="25"></p>
+            <p>9</p>
+            <p><img src="images/survived.png" width="25" height="25"></p>
+            <p>13</p>
+        </li>
+        <li class="player">
+            <p>Asal Alghamdi</p>
+            <p></p>
+            <p><img src="images/death.png" width="25" height="25"></p>
+            <p>9</p>
+            <p><img src="images/survived.png" width="25" height="25"></p>
+            <p>13</p>
+        </li>
+        <li class="player">
+            <p>Asal Alghamdi</p>
+            <p><img src="images/no2.png" width="33" height="33"></p>
+            <p><img src="images/death.png" width="25" height="25"></p>
+            <p>9</p>
+            <p><img src="images/survived.png" width="25" height="25"></p>
+            <p>13</p>
+        </li>
+        <li class="player">
+            <p>Asal Alghamdi</p>
+            <p></p>
+            <p><img src="images/death.png" width="25" height="25"></p>
+            <p>9</p>
+            <p><img src="images/survived.png" width="25" height="25"></p>
+            <p>13</p>
+        </li>
+        <li class="player">
+            <p>Asal Alghamdi</p>
+            <p></p>
+            <p><img src="images/death.png" width="25" height="25"></p>
+            <p>9</p>
+            <p><img src="images/survived.png" width="25" height="25"></p>
+            <p>13</p>
+        </li>
+        <li class="player">
+            <p>Asal Alghamdi</p>
+            <p></p>
+            <p><img src="images/death.png" width="25" height="25"></p>
+            <p>9</p>
+            <p><img src="images/survived.png" width="25" height="25"></p>
+            <p>13</p>
+        </li>
+        <li class="player">
+            <p>Asal Alghamdi</p>
+            <p></p>
+            <p><img src="images/death.png" width="25" height="25"></p>
+            <p>9</p>
+            <p><img src="images/survived.png" width="25" height="25"></p>
+            <p>13</p>
+        </li>
+        <li class="player">
+            <p>Asal Alghamdi</p>
+            <p><img src="images/no3.png" width="33" height="33"></p>
+            <p><img src="images/death.png" width="25" height="25"></p>
+            <p>9</p>
+            <p><img src="images/survived.png" width="25" height="25"></p>
+            <p>13</p>
+        </li>
+        <li class="player">
+            <p>Asal Alghamdi</p>
+            <p></p>
+            <p><img src="images/death.png" width="25" height="25"></p>
+            <p>9</p>
+            <p><img src="images/survived.png" width="25" height="25"></p>
+            <p>13</p>
+        </li>
+        <li class="player">
+            <p>Asal Alghamdi</p>
+            <p></p>
+            <p><img src="images/death.png" width="25" height="25"></p>
+            <p>9</p>
+            <p><img src="images/survived.png" width="25" height="25"></p>
+            <p>13</p>
+        </li>
+        <li class="player">
+            <p>Asal Alghamdi</p>
+            <p></p>
+            <p><img src="images/death.png" width="25" height="25"></p>
+            <p>9</p>
+            <p><img src="images/survived.png" width="25" height="25"></p>
+            <p>13</p>
+        </li> -->
+    </ul>
+    <div class="cnvs"></div>
+    <div class="arrowControl">
+        <img id="upArrow" src="images/up.png" width="250" height="250"> 
+        <img id="leftArrow" src="images/left.png" width="250" height="250" style="margin-top: 190px; margin-left: 100px; float: left;">
+        <img id="rightArrow" src="images/right.png" width="250" height="250" style="margin-top: 190px; margin-right: 100px; float: right;">
+        <img id="downArrow" src="images/down.png" width="250" height="250" style="margin-top: 100px;">
+    </div>
+    
+    <script src="js/resources.js"></script>
+    <script src="js/engine.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.2.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-database.js"></script> <!-- Firebase Database -->
+    <script src="js/firebaseDB.js"></script>
+    <script src="js/app.js"></script>
+    
+
+</body>
+</html>
